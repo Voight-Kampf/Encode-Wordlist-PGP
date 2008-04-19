@@ -1,0 +1,17 @@
+---
+name: Encode-Wordlist-PGP
+version: 1
+author:
+  - 'Earle Martin <hex@cpan.org>'
+abstract: convert hex values to/from PGP Word List format
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+provides:
+  Encode::Wordlist::PGP:
+    file: lib/Encode/Wordlist/PGP.pm
+    version: 1
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

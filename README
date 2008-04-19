@@ -1,0 +1,36 @@
+NAME
+    Encode::Wordlist::PGP - convert hex values to/from PGP Word List format
+
+DESCRIPTION
+    The PGP Word List is a list of words for conveying data bytes in a clear
+    unambiguous way via a voice channel. They are analogous in purpose to
+    the NATO phonetic alphabet used by pilots, except a longer list of words
+    is used, each word corresponding to one of the 256 unique numeric byte
+    values. This module provides functions to convert between those byte
+    values and words.
+
+METHODS
+    See perldoc in module.
+
+AUTHOR
+    Earle Martin <hex@cpan.org>
+
+COPYRIGHT
+    This code is free software and is licensed under the same terms as the
+    latest released version of Perl itself. You may redistribute it and/or
+    modify it according to those conditions.
+
+    The encoding method in this module is derived from "fingerprint.pl" by
+    Josh Larios (<http://staff.washington.edu/jdlarios/fingerprint_pl.txt>).
+
+    Portions of this documentation are taken from the Wikipedia article "PGP
+    word list" (revision used available at
+    <http://xrl.us/pgpwordlist204668808>). This documentation is licensed
+    under the GNU Free Documentation License
+    (<http://www.gnu.org/copyleft/fdl.html>).
+
+SEE ALSO
+    * <http://en.wikipedia.org/wiki/PGP_word_list>
+    * GnuPG::Fingerprint
+    * Digest::BubbleBabble - a similar concept for message digests
+
