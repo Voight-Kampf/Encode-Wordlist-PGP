@@ -3,7 +3,7 @@ package Encode::Wordlist::PGP;
 use warnings;
 use strict;
 
-our $VERSION = 1;
+our $VERSION = '1.1';
 
 use base qw(Exporter);
 our @EXPORT_OK = qw(pgp_wordlist_encode pgp_wordlist_decode);
@@ -159,7 +159,7 @@ __END__
 
 =head1 NAME
 
-Encode::Wordlist::PGP - convert hex values to/from PGP Word List format
+Encode::Wordlist::PGP - encode/decode hex values using the PGP Word List
 
 =head1 DESCRIPTION
 
@@ -239,6 +239,9 @@ list" (revision used available at L<http://xrl.us/pgpwordlist204668808>). This
 documentation is licensed under the GNU Free Documentation License 
 (L<http://www.gnu.org/copyleft/fdl.html>).
 
+The word list itself is copyrighted under a copyright owned by PGP Corporation,
+and licensed by them under the GNU Free Documentation License.
+
 =head1 SEE ALSO
 
 =over 4
@@ -248,6 +251,8 @@ documentation is licensed under the GNU Free Documentation License
 =item * L<GnuPG::Fingerprint>
 
 =item * L<Digest::BubbleBabble> - a similar concept for message digests
+
+=item * L<Lingua::Alphabet::Phonetic>
 
 =back
 
