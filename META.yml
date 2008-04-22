@@ -1,6 +1,6 @@
 ---
 name: Encode-Wordlist-PGP
-version: 1.1
+version: 1.11
 author:
   - 'Earle Martin <hex@cpan.org>'
 abstract: encode/decode hex values using the PGP Word List
@@ -12,7 +12,7 @@ requires:
 provides:
   Encode::Wordlist::PGP:
     file: lib/Encode/Wordlist/PGP.pm
-    version: 1.1
+    version: 1.11
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

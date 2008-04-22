@@ -1,6 +1,10 @@
 # This file uses the Simplified Parseable Changes format.
 # http://use.perl.org/~hex/journal/34882
 
+version: 1.11
+date:    2008-04-22
+fix:     Also "use 5.008" to avoid a specific case of test failures on 5.6.2.
+
 version: 1.1
 date:    2008-04-22
 fix:     Specify minimum Perl version of 5.8.0 in Build.PL.

@@ -3,7 +3,9 @@ package Encode::Wordlist::PGP;
 use warnings;
 use strict;
 
-our $VERSION = '1.1';
+use 5.008; # required for "()" support in unpack()
+
+our $VERSION = '1.11';
 
 use base qw(Exporter);
 our @EXPORT_OK = qw(pgp_wordlist_encode pgp_wordlist_decode);
